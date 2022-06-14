@@ -40,7 +40,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener
 	public void paint(Graphics g)
 	{    		
 		// background
-		g.setColor(Color.black);
+		g.setColor(Color.pink);
 		g.fillRect(1, 1, 692, 592);
 		
 		// drawing map
@@ -53,7 +53,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener
 		g.fillRect(691, 0, 3, 592);
 		
 		// the scores 		
-		g.setColor(Color.white);
+		g.setColor(Color.lightGray);
 		g.setFont(new Font("serif",Font.BOLD, 25));
 		g.drawString(""+score, 590,30);
 		
